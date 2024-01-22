@@ -1,4 +1,3 @@
-import './App.css'
 import { NavBar } from './components/NavBar/NavBar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { PokemonsProvider } from './contexts/PokemonsProvider'

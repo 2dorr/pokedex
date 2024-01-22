@@ -1,7 +1,7 @@
 import { NamedAPIResource, Type } from "pokenode-ts";
 
 export function getPokemonSpriteUrl(pokemonUrl: string = ''): string {
-  const pokemonId = pokemonUrl.split("/")[6];
+  const pokemonId = pokemonUrl.split("/")?.[6];
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
 }
 

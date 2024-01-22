@@ -108,6 +108,4 @@ export const PokemonsSearch = (): JSX.Element => {
       </div>
     </div>
   )
-
-  
 }
